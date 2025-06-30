@@ -1635,9 +1635,9 @@ body #app::-webkit-scrollbar {
     margin: 0 auto;
   }
   .game-container {
-    grid-gap: 0;
+    /* grid-gap: 0;
     width: 100%;
-    display: grid;
+    display: grid; */
   }
   .game-header {
     height: 70px;
@@ -3688,7 +3688,7 @@ body #app::-webkit-scrollbar {
   --svg-indicator-border-gradient: "l(0, 0, 1, 1)rgba(179, 179, 179, 0.44)-rgba(0, 0, 0, 0.85)";
 }
 .game-container {
-  grid-template: "modeTabs history" min-content "betslip chart" min-content "betslip range" max-content "stats stats" 1fr/360px 1fr;
+  /* grid-template: "modeTabs history" min-content "betslip chart" min-content "betslip range" max-content "stats stats" 1fr/360px 1fr; */
 }
 .game-range__wrapper {
   grid-area: range;

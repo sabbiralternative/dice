@@ -2,7 +2,7 @@ import CircleChart from "./CircleChart";
 
 const Chart = ({ greenWinChance }) => {
   return (
-    <div className="chart-wrapper">
+    <div className="chart-wrapper" style={{ height: "250px" }}>
       <div className="chart-holder">
         <div id="chart" className="canvas-wrapper">
           <CircleChart greenWinChance={greenWinChance} />

@@ -928,9 +928,9 @@ body {
   line-height: 1;
   position: relative;
 }
-html body {
+/* html body {
   height: calc(var(--vh, 1vh) * 100 - var(--safe-area-inset-bottom));
-}
+} */
 input,
 textarea,
 select,
@@ -968,6 +968,12 @@ strong {
 
 body {
   background-color: #000;
+
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto !important;
+}
+body .dice {
   background-image: linear-gradient(315deg, #16191d 0%, #252a2e 100%);
 }
 .iconFont {
@@ -1015,3 +1021,8 @@ body {
   background-color: #5a5f65;
 }
 /*# sourceMappingURL=index.b42ae668.css.map */
+
+.canvas-wrapper > svg {
+  width: fit-content !important;
+  height: fit-content !important;
+}

@@ -17,10 +17,19 @@ const Home = () => {
   };
 
   return (
-    <div id="app" className="dice">
+    <div
+      id="app"
+      className="dice"
+      // style={{ maxWidth: "500px", margin: "0 auto", minHeight: "100vh" }}
+    >
       <div id="post-message-size" className="game-wrapper demo">
         <Header />
-        <div className="game-container">
+        <div
+          className="game-container"
+          style={{
+            display: "initial",
+          }}
+        >
           <div className="game-history" />
           <div className="game-mode-tabs">
             <div data-track="tab.manual" className="mode-btn active">
